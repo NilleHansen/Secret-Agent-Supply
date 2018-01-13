@@ -8,6 +8,7 @@
 body {
   font-family: helvetica;
   line-height: 1.4em;
+  font-size: 18px
 
 }
 
@@ -44,7 +45,7 @@ p {
 
 }
 
-.headlinder {
+#headlinder {
   background-color: black;
   color: white;
   width: 20em;
@@ -52,6 +53,16 @@ p {
   position: relative;
   top: 9em;
 }
+
+h4 {
+  font-size: 1rem;
+}
+
+
+h1 {
+  font-size: 2rem;
+}
+
 
 .flex-container {
   background-color: white;
