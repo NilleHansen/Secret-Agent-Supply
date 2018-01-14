@@ -140,7 +140,7 @@ h1 {
 
  .location {
   background-color: white;
-  text-align: center;
+  text-align: left;
   flex-direction:  row;
   justify-content: space-between;
   align-items: center;
