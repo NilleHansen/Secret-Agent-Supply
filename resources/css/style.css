@@ -15,8 +15,8 @@
 
 body {
   font-family: helvetica;
-  font-size: 18px
-
+  font-size: 18px;
+  line-height: 1.4em;
 }
 
 
@@ -108,12 +108,14 @@ h4 {
   font-size: 1rem;
   font-weight: bold;
   padding-bottom: 0.25rem;
+  display: block;
 }
 
 
 h1 {
   font-size: 2rem;
   font-weight: bold;
+  line-height: 1.2em;
 }
 
 .container {
