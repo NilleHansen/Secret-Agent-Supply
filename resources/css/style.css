@@ -60,6 +60,27 @@ p {
 
 }
 
+p.location {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  width: 35%;
+  margin-top: 3rem;
+  margin: 1rem;
+
+}
+
+.location {
+  text-align: center;
+  padding-left: 2rem;
+  width: 35%;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  justify-content: space-between;
+
+
+}
 
 .main-banner {
   background-image: url(../moto.jpeg);
