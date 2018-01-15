@@ -194,16 +194,32 @@ footer {
   display: flex;
 }
 
-@media (max-width:1020px){
-body {
-  font-size: 16px;
 
-}
-}
 
-@media (max-width:1020px){
-.mobile-nav.container{
-  display: none;
 
-}
-}
+@media (max-width:1024px){
+  body {
+    font-size: 16px;
+  }
+  .mobile-nav {
+    display:block;
+  }
+
+  .desktop-nav {
+    display: hidden;
+  }
+
+
+
+
+@media only screen and (max-width: 470px) {
+  .mobile-nav {
+    display:hidden;
+    align-items: baseline;
+  }
+
+  .desktop-nav {
+    display: block;
+  }
+
+  }
