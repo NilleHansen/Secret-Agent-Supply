@@ -202,7 +202,7 @@ body {
 }
 
 @media (max-width:1020px){
-.nav-container{
+.mobile-nav.container{
   display: none;
 
 }
