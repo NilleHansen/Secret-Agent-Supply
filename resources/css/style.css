@@ -194,14 +194,14 @@ footer {
   display: flex;
 }
 
-@media only screen and (min-width: 960px;) and (max-width:1024px;) and (orientation: portait;){
+@media (max-width:1020px;){
 body {
   font-size: 16px;
-}
+
 }
 
-@media only screen and (min-width: 960px;) and (orientation: portait;){
-.mobile-nav .container {
+@media (max-width:1020px;){
+.nav-container{
   display: none;
-}
+
 }
