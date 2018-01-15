@@ -1,14 +1,4 @@
-@media only screen and (min-width: 960px;) and (max-width:1024px;) and (orientation: portait;){
-body {
-  font-size: 16px;
-}
-}
 
-@media only screen and (min-width: 960px;) and (orientation: portait;){
-.mobile-nav .container {
-  display: none;
-}
-}
 
 html {
   font-size: 18px;
@@ -202,4 +192,16 @@ footer {
   text-align: left;
   align-items: center;
   display: flex;
+}
+
+@media only screen and (min-width: 960px;) and (max-width:1024px;) and (orientation: portait;){
+body {
+  font-size: 16px;
+}
+}
+
+@media only screen and (min-width: 960px;) and (orientation: portait;){
+.mobile-nav .container {
+  display: none;
+}
 }
